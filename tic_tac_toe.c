@@ -83,7 +83,7 @@ int checkDraw(char board[BOARD_SIZE][BOARD_SIZE]){
 
 void printBoard(char board[BOARD_SIZE][BOARD_SIZE]){
     clearScreen();
-    printf("\n----------------------Score----------------------");
+    printf("\n-----------------------Score-----------------------");
     printf("\n Your Score = %d | ", score.playerScore);
     printf("Computer Score = %d | ", score.compScore);
     printf("Draws = %d", score.draw);
